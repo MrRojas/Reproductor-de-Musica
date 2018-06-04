@@ -44,3 +44,31 @@ production:
  ## Usar la gem Bundler 
 
  bundler install
+
+ ## levantar Servidor
+
+ rails s 
+
+ ## generadores 
+
+ rails --generate 
+
+ ## scaffold 
+
+ rails generate scaffold "tabla" "nombre_atributo":"tipo_de_dato"
+
+ rails generate scaffold track title:string  album:string artist:string
+
+ escribir los modelos en ingles, y en singular para usar la magia de rails 
+
+ asi se crear el primer CRUD 
+
+## migraciones
+
+se crean en la carpeta db/migrate 
+
+manejar los schema de sql con ruby
+
+el nombre de los modelos singular, y de las tablas plural 
+
+rake db:migrate 
