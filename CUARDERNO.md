@@ -72,3 +72,12 @@ manejar los schema de sql con ruby
 el nombre de los modelos singular, y de las tablas plural 
 
 rake db:migrate 
+
+## routes 
+
+se encuentra en config 
+
+para ver las rutas: rake routes
+
+## Modelos ORM y ActiveRecord 
+

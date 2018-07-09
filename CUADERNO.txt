@@ -1,0 +1,56 @@
+------------------------
+Los Asset son todos los archivos requeridos en el Frontend
+como lo es JS , CSS , imagenes , entre otros
+
+--------------------------------------------------------
+
+Iniciar una App en Rails se usa 
+
+- rails new MiApp 
+
+
+-----------------------------------------------------
+
+Estructura de un Proyecto
+
+MVC 
+
+Helpers = Es donde va los codigos que se repiten una y otra vez
+a lo largo del proyecto
+
+Mailers = La logica relacionada al envio de correo
+
+Modelo = toda la logica de la aplicacion
+
+Config = la configuracion de nuestra de aplicacion
+	environmnets(entorno) = ofrece 3 entorno
+
+
+Initiañizers = codigo que se ejecuta al levantar el servidor, en la cual va las configuraciones
+antes que inicialize, como tokens de las API de FACEBOOK, TWITTER, entre otros.
+
+	database = viene por defecto sqlite 
+
+-------------------------------------------------------------
+
+Errores 
+
+404 = File NOt Found
+422 = Ruta no encontrada
+500 = error en el server 
+
+---------------------------------------
+
+
+Scaffold 
+
+
+
+-------------------------
+
+rake routes 
+
+
+https://mega.nz/#F!2oFEwZAa!mzIjhVC6d954zXEJoswPSg
+
+
